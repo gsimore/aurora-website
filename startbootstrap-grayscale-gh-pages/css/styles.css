@@ -372,6 +372,11 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 2rem;
+  color: white
+}
+
+h2:hover {
+  color: pink !important;
 }
 
 h3, .h3 {
@@ -10251,7 +10256,15 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 52rem;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-about.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -10334,7 +10347,7 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
 }
 .contact-section .social a:active {
   color: #fff;
@@ -10342,4 +10355,16 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+b:hover {
+  color: pink;
+}
+
+.hover-blue:hover {
+  color: #64a19d !important;
+}
+
+h1:hover {
+  color: #64a19d !important;
 }
