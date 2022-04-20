@@ -10228,9 +10228,19 @@ body {
   -webkit-background-clip: text;
           background-clip: text;
 }
+.masthead h1:hover {
+  color: indigo !important;
+  -webkit-text-fill-color: lightcyan;
+}
+
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
+}
+
+
+.masthead h2:hover {
+  color: lightcyan !important;
 }
 @media (min-width: 768px) {
   .masthead h1 {
