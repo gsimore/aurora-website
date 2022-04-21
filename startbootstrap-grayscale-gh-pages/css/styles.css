@@ -10280,6 +10280,11 @@ body {
   margin-bottom: 5rem;
 }
 
+.demo-section {
+  background: indigo;
+  padding: 0 10rem;
+}
+
 .projects-section {
   padding: 10rem 0;
 }
@@ -10289,7 +10294,7 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid darkred;
   }
 }
 .projects-section .project-text {
@@ -10301,7 +10306,7 @@ body {
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: darkred;
     border-width: 0.25rem;
     width: 30%;
   }
