@@ -1,25 +1,31 @@
 @font-face {
-  font-family: imperfecta-regular;
-  src: url('fonts/ImperfectaRegular.ttf')  format('truetype')
+    font-family: imperfecta-regular;
+    src: url('fonts/ImperfectaRegular.ttf') format('truetype')
 }
 
 @font-face {
-  font-family: imperfecta-regular-rough;
-  src: url('fonts/ImperfectaRegularRough.ttf')  format('truetype')
+    font-family: imperfecta-regular-rough;
+    src: url('fonts/ImperfectaRegularRough.ttf') format('truetype')
 }
 
 @font-face {
-  font-family: glassure;
-  src: url('fonts/Glassure.otf') format('opentype')
+    font-family: glassure;
+    src: url('fonts/Glassure.otf') format('opentype')
 }
 
 @font-face {
-  font-family: ambarella;
-  src: url('fonts/Ambarella.ttf')  format('truetype'),
-       url('fonts/Ambarella.otf')  format('opentype'),
-       url('fonts/Ambarella.svg#Ambarella') format('svg'); /* IE9 Compat Modes */
-       url('fonts/Ambarella.eot') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/Ambarella.woff') format('woff'), /* Modern Browsers */
+    font-family: adelia;
+    src: url('fonts/adelia.ttf') format('truetype');
+    url('fonts/adelia.otf') format('opentype'),
+}
+
+@font-face {
+    font-family: ambarella;
+    src: url('fonts/Ambarella.ttf') format('truetype'),
+    url('fonts/Ambarella.otf') format('opentype'),
+    url('fonts/Ambarella.svg#Ambarella') format('svg'); /* IE9 Compat Modes */
+    url('fonts/Ambarella.eot') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/Ambarella.woff') format('woff'), /* Modern Browsers */
 }
 
 @font-face {
