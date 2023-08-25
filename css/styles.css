@@ -10841,8 +10841,8 @@ body {
 .masthead h1 {
     font-family: adelia, cursive;
     font-size: 2rem;
-    line-height: 1rem;
-    letter-spacing: 1rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
     color: #fff;
 }
 
