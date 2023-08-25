@@ -10250,13 +10250,13 @@ body {
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
+    font-size: 5rem;
+    line-height: 5rem;
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
-    max-width: 30rem;
-    font-size: 1.25rem;
+    max-width: 45rem;
+    font-size: 1rem;
   }
 }
 
