@@ -1,2 +1,2 @@
 # aurora-website
-Website for Aurora Creative LLC
+Website for Aurora Creative
